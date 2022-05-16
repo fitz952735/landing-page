@@ -3,6 +3,7 @@ body {
     overflow: scroll;
     display: flex;
     flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .header, .sect-1 .footer {
@@ -21,6 +22,7 @@ li {
 .header {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 80px;
 }
 
 .logo {
@@ -38,6 +40,7 @@ li {
     display: flex;
     background-color: #1f2937;
     justify-content: space-between;
+    padding-bottom: 100px;
 }
 
 .sect-1-header {
@@ -49,6 +52,7 @@ li {
 .sect-1-body {
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 10px;
 }
 
 .left-sect-1 {
@@ -65,11 +69,13 @@ button {
     padding: 8px 32px;
     border-radius: 8px;
     font-size: 16px;
+    border-style: solid;
 }
 
 button.top {
     background: #3882f6;
     color: white;
+    border-color: #3882f6;
 }
 
 .sect-2 {
@@ -77,19 +83,87 @@ button.top {
     background-color: white;
     flex-direction: column;
     align-items: center;
+    padding: 100px;
 }
 
 .sect-2-header {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    margin-bottom: 20px;
 }
 
 .container {
     display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.babies {
+    border: 5px #3882f6;
+    border-style: solid;
+    border-radius: 10px;
 }
 
 .pics {
-    border-color: #3882f6;
-    border: 5px;
+    width: auto;
 }
+
+.sect-3 {
+    background-color: #E5E7EB;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.thor {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    align-self: flex-end;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    align-self: flex-start;
+    margin: 0;
+}
+
+.pics {
+    max-width: 177px;
+}
+
+.sect-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 200px;
+}
+
+.container-3 {
+    display: flex;
+    background-color: #3882f6;
+    align-content: center;
+    padding: 30px 150px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #3882f6;
+    color: white;
+}
+
+.call, .sign-up {
+    margin: 0;
+}
+
+.call {
+    font-weight: bold;
+    font-size: 26px;
+}
+
