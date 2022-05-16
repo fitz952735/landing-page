@@ -112,12 +112,16 @@ button.top {
 
 .sect-3 {
     background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container-2 {
     display: flex;
     flex-direction: column;
     padding: 100px;
+    max-width: 830px;
 }
 
 .thor {
@@ -125,6 +129,7 @@ button.top {
     font-weight: bold;
     font-size: 20px;
     align-self: flex-end;
+    margin-right: 20px;
 }
 
 .quote {
@@ -144,14 +149,14 @@ button.top {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 200px;
+    padding: 75px 200px;
 }
 
 .container-3 {
     display: flex;
     background-color: #3882f6;
     align-content: center;
-    padding: 30px 150px;
+    padding: 30px 130px;
     border-radius: 8px;
     border-style: solid;
     border-color: #3882f6;
@@ -162,8 +167,37 @@ button.top {
     margin: 0;
 }
 
+.sign-up {
+    font-size: 16   px;
+}
+
 .call {
     font-weight: bold;
-    font-size: 26px;
+    font-size: 20px;
+}
+
+.bottom {
+    white-space: nowrap;
+    margin-left: 200px;
+    background-color: #3882f6;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+}
+
+.right-sect-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
 }
 
